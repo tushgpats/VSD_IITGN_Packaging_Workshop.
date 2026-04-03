@@ -13,7 +13,7 @@ Ensuring package reliability involves rigorous testing and validation under vari
 <br></br>
 
 <details>
-<summary>## Part 1: Packaging evolution: From Basics to 3D Integration. </summary>
+<summary>#Part 1: Packaging evolution: From Basics to 3D Integration. </summary>
 <br></br>
 
 Semiconductor packaging is essential because the raw silicon die is extremely fragile and cannot function directly in a real-world environment. Packaging provides mechanical protection, enables electrical connections between the chip and external circuits, and ensures efficient heat dissipation during operation. Without proper packaging, issues like thermal failure, signal degradation, and physical damage would render the device unusable. In modern systems, packaging also plays a crucial role in improving performance, reducing power consumption, and enabling compact form factors.
@@ -65,7 +65,8 @@ Different package types offer trade-offs in terms of cost, size, performance, an
 </details>
 
 <br></br>
-## Part 2 : From Wafer to Package: Assembly and Manufacturing Essentials.
+<details>
+<summary> # Part 2 : From Wafer to Package: Assembly and Manufacturing Essentials.</summary>
 <br></br>
 In semiconductor manufacturing, once the wafer fabrication is complete, several crucial steps are required to convert it into a usable packaged device. The process begins with preparing the wafer through grinding and dicing, where the wafer is thinned and then cut into individual dies. These dies are then carefully handled and attached to a substrate or carrier, forming the foundation for further packaging steps. The entire process requires a well-established supply chain and specialized facilities to ensure precision, cleanliness, and high yield.
 <br></br>
@@ -109,8 +110,10 @@ Solder bumps are first formed on the die pads, after which the die is flipped an
 <img width="1192" height="677" alt="Screenshot 2026-04-01 222907" src="https://github.com/user-attachments/assets/e5f02ed7-2f87-4ba8-989b-717612ad053d" />
 
 Packaging is performed directly at the wafer level by redistributing connections through RDL layers and forming solder balls before singulation. Known good dies are reconstituted onto a carrier, followed by molding to create a new wafer-like structure. After RDL patterning and solder ball attachment, the wafer is diced into fully packaged devices, enabling compact form factors and improved manufacturing efficiency.
+</details>
 <br></br>
-## Day 3 : Lab: Thermal Simulation of Semiconductor Packages with ANSYS Icepak. 
+<details>
+<summary># Day 3 : Lab: Thermal Simulation of Semiconductor Packages with ANSYS Icepak. </summary>
 <br></br>
 We now focus on hands-on thermal simulation of semiconductor packages using ANSYS Electronics Desktop, which providies practical exposure to industry-relevant analysis workflows. we begins with the setup and navigation of the tool. We then build a Flip-Chip BGA package model, which serves as a realistic example for understanding package-level thermal behavior. Material properties and thermal power sources are defined to accurately represent real-world operating conditions.
 
@@ -275,6 +278,7 @@ The thermal contour plot shows the final temperature distribution across the pac
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-28 232847" src="https://github.com/user-attachments/assets/b9662625-ce75-4b39-9a70-7e9341515417" />
 A closer view of the temperature contour clearly highlights the thermal gradient between the die and the surrounding substrate. The die remains at the highest temperature, while the adjacent substrate region shows intermediate temperatures due to heat spreading. This view is particularly useful for identifying hotspot concentration and localized package heating.
+</details>
 
 <br></br>
 ##Day 4: Ensuring Package Reliablity : Testing and Performance Validation.
