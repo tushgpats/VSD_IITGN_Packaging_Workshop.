@@ -10,8 +10,10 @@ Semiconductor packaging is a critical bridge between the silicon die and the rea
 The journey from wafer to package involves multiple tightly controlled manufacturing steps including dicing, die attach, wire bonding or flip-chip interconnect, encapsulation, and final testing. Each stage must ensure precision and reliability, as defects at the packaging level can compromise the entire system. Thermal considerations are especially important, which is why simulation tools like ANSYS are widely used to model heat dissipation and ensure that the package can handle operational stresses. Effective thermal design directly impacts device longevity and performance, particularly in high-power and high-density applications.
 <br></br>
 Ensuring package reliability involves rigorous testing and validation under various environmental and electrical conditions, including thermal cycling, vibration, and electrical stress tests. At the same time, modern package design increasingly involves detailed modeling and co-design with the chip itself, especially in advanced nodes. Engineers now build semiconductor packages from scratch using simulation-driven approaches, optimizing parameters such as signal integrity, power delivery, and thermal behavior. This integrated design philosophy highlights how packaging has evolved into a multidisciplinary field combining materials science, mechanical engineering, and electrical design.
+<br></br>
 
-## Part 1: Packaging evolution: From Basics to 3D Integration. 
+<details>
+<summary>## Part 1: Packaging evolution: From Basics to 3D Integration. </summary>
 <br></br>
 
 Semiconductor packaging is essential because the raw silicon die is extremely fragile and cannot function directly in a real-world environment. Packaging provides mechanical protection, enables electrical connections between the chip and external circuits, and ensures efficient heat dissipation during operation. Without proper packaging, issues like thermal failure, signal degradation, and physical damage would render the device unusable. In modern systems, packaging also plays a crucial role in improving performance, reducing power consumption, and enabling compact form factors.
@@ -60,6 +62,7 @@ Package nomenclature reflects the level of integration, ranging from single-chip
 
 <br></br>
 Different package types offer trade-offs in terms of cost, size, performance, and reliability. Simpler packages are cost-effective but limited in I/O and performance, while advanced packages provide higher integration and efficiency at increased complexity and cost. Selecting the right package requires balancing these trade-offs based on application needs.
+</details>
 
 <br></br>
 ## Part 2 : From Wafer to Package: Assembly and Manufacturing Essentials.
