@@ -272,6 +272,77 @@ The thermal contour plot shows the final temperature distribution across the pac
 <img width="1920" height="1008" alt="Screenshot 2026-03-28 232847" src="https://github.com/user-attachments/assets/b9662625-ce75-4b39-9a70-7e9341515417" />
 A closer view of the temperature contour clearly highlights the thermal gradient between the die and the surrounding substrate. The die remains at the highest temperature, while the adjacent substrate region shows intermediate temperatures due to heat spreading. This view is particularly useful for identifying hotspot concentration and localized package heating.
 
+<br></br>
+##Day 4: Ensuring Package Reliablity : Testing and Performance Validation.
+<br></br>
+
+We now focus on ensuring package reliability through testing and performance validation, bridging the gap between design and real-world operation. It begins with an introduction to package testing methodologies and electrical functionality checks, where various techniques are used to verify that the packaged device operates correctly under expected conditions. These checks ensure signal integrity, continuity, and overall functional correctness before deployment.
+We Later extend testing into reliability and performance testing, where semiconductor packages are evaluated under different stress conditions such as temperature cycling, mechanical stress, and prolonged operation.
+<br></br>
+
+<img width="1185" height="679" alt="Screenshot 2026-04-01 223418" src="https://github.com/user-attachments/assets/2327f343-3e35-4dcd-aa16-07951571a549" />
+
+Testing is carried out at different stages of semiconductor manufacturing, starting from the foundry level all the way to system-level testing. Testing begins with wafer probe testing and continues through wafer sorting, package manufacturing, and final system-level tests.
+
+Early-stage testing such as wafer probing helps identify defective dies before packaging, while wafer sorting categorizes devices based on performance. In the OSAT stage, further testing is carried out after packaging, followed by system-level tests (SLT) to validate real-world functionality. Continuous feedback through diagnosis and failure analysis enables process improvements and enhances overall product reliability.
+
+<br></br>
+
+<img width="1190" height="681" alt="Screenshot 2026-04-01 223523" src="https://github.com/user-attachments/assets/8e10ee37-c3d7-4f89-96e5-d9978e9db8b3" />
+
+Devices transition from cleanroom manufacturing environments to dedicated testing areas where they undergo structured validation. The workflow typically includes Assembly Open and Short Test (AOST), burn-in, and final testing, ensuring both functional correctness and long-term reliability.
+
+<br></br>
+
+<img width="1186" height="682" alt="Screenshot 2026-04-01 223558" src="https://github.com/user-attachments/assets/20457621-c244-4188-84d0-81aef4ab64eb" />
+
+Assembly Open and Short Test (AOST) is a rapid screening process used immediately after packaging to detect electrical failures. It focuses on identifying open circuits, short circuits, and interconnect defects in package leads or solder balls. In addition to electrical checks, visual inspection is used to identify physical defects such as missing balls, bridging, or cracks.
+
+<br></br>
+
+<img width="1199" height="695" alt="Screenshot 2026-04-01 223850" src="https://github.com/user-attachments/assets/12d1d832-bf27-4379-8e1c-d0fa6bba0f90" />
+
+Burn-in testing is a reliability screening method that subjects devices to elevated stress conditions, including high temperature, voltage, and power cycling. The purpose is to accelerate failure mechanisms and identify early-life failures (infant mortality) before deployment. By filtering out weak devices, burn-in improves field reliability, although it may slightly reduce overall device lifespan due to the applied stress.
+
+<br></br>
+
+<img width="1201" height="698" alt="Screenshot 2026-04-01 224210" src="https://github.com/user-attachments/assets/0b0472bf-56dd-46c0-a2d4-f6d4d67d5172" />
+
+Final testing verifies that packaged devices meet all electrical and performance specifications under different operating conditions. Devices are tested at both high (hot test) and low (cold test) temperatures to ensure consistent functionality across temperature ranges. Automated Test Equipment (ATE) and handlers are used to perform high-throughput testing efficiently.
+
+<br></br>
+
+<img width="1234" height="695" alt="Screenshot 2026-04-01 224352" src="https://github.com/user-attachments/assets/b87cb065-669e-4afa-aa9e-7425ecbac885" />
+
+Automatic Test Equipment (ATE) plays a central role in semiconductor validation by generating test patterns and measuring device responses. Testing is categorized into parametric tests (measuring electrical characteristics like voltage and current), functional tests (verifying logical operation), and speed tests (evaluating timing performance). Key performance metrics such as yield, test time, and coverage are used to assess both product quality and manufacturing efficiency.
+
+<br></br>
+##Day 5: Package Design and Modelling: Building Semiconductor Package from Scratch.
+<br></br>
+
+
+
+<br></br>
+
+
+
+<br></br>
+
+
+
+
+<br></br>
+
+
+
+<br></br>
+
+
+
+<br></br>
+
+
+
 
 <br></br>
 
@@ -288,12 +359,6 @@ A closer view of the temperature contour clearly highlights the thermal gradient
 
 
 <br></br>
-
-
-
-
-<br></br>
-
 
 
 
