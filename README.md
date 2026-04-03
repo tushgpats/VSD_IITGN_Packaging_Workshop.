@@ -281,7 +281,8 @@ A closer view of the temperature contour clearly highlights the thermal gradient
 </details>
 
 <br></br>
-##Day 4: Ensuring Package Reliablity : Testing and Performance Validation.
+<details>
+<summary>#Day 4: Ensuring Package Reliablity : Testing and Performance Validation. </summary>
 <br></br>
 
 We now focus on ensuring package reliability through testing and performance validation, bridging the gap between design and real-world operation. It begins with an introduction to package testing methodologies and electrical functionality checks, where various techniques are used to verify that the packaged device operates correctly under expected conditions. These checks ensure signal integrity, continuity, and overall functional correctness before deployment.
@@ -323,9 +324,11 @@ Final testing verifies that packaged devices meet all electrical and performance
 <img width="1234" height="695" alt="Screenshot 2026-04-01 224352" src="https://github.com/user-attachments/assets/b87cb065-669e-4afa-aa9e-7425ecbac885" />
 
 Automatic Test Equipment (ATE) plays a central role in semiconductor validation by generating test patterns and measuring device responses. Testing is categorized into parametric tests (measuring electrical characteristics like voltage and current), functional tests (verifying logical operation), and speed tests (evaluating timing performance). Key performance metrics such as yield, test time, and coverage are used to assess both product quality and manufacturing efficiency.
-
+</details>
 <br></br>
-##Day 5: Package Design and Modelling: Building Semiconductor Package from Scratch.
+
+<details>
+<summary>#Day 5: Package Design and Modelling: Building Semiconductor Package from Scratch. </summary>
 <br></br>
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 124931" src="https://github.com/user-attachments/assets/d87ad542-3ada-498a-9320-90fb95bcf970" />
 
@@ -529,7 +532,7 @@ The model transitions into a more complete package structure with the introducti
 The final assembled package is visualized with all components integrated: substrate, die attach, silicon die, bond pads, bond wires, and encapsulation. This represents a complete semiconductor package model, ready for further analysis such as thermal, electrical, or mechanical simulations. At this point, the structure closely resembles a real-world packaged device.
 
 <br></br>
-
+</details>
 
 
 <br></br>
