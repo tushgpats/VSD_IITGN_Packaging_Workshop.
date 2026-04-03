@@ -462,7 +462,7 @@ the die attach layer is introduced between the silicon die and the substrate, wh
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 140629" src="https://github.com/user-attachments/assets/735fd6f4-707b-4ad2-bb71-d2a52a6587a6" />
 
-
+A dedicated conductive structure (die bond pad) is created using copper material. This pad acts as the primary landing point for wire bonding from the die. Material selection here is crucial because copper offers high electrical conductivity and good thermal performance, making it suitable for efficient signal and heat transfer.
 
 <br></br>
 
@@ -474,11 +474,13 @@ the die attach layer is introduced between the silicon die and the substrate, wh
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 154509" src="https://github.com/user-attachments/assets/434377cb-91d7-49c7-b2e4-b5cf5811599b" />
 
+Wire bonding setup begins, where a connection path is defined between the die and substrate pads. The JEDEC 4-point bond wire profile is used, which mimics real-world bonding geometry including loop height and curvature. This reflects actual manufacturing processes where wires are not straight but shaped to avoid stress and interference.
 
 <br></br>
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 154606" src="https://github.com/user-attachments/assets/8a423baa-a60e-4ac4-b5f6-c36d21812137" />
 
+The bond wire is now physically created and visualized within the model. It forms an electrical bridge between the die and substrate pad. This interconnect is critical in traditional packaging technologies, enabling signal transmission while accommodating mechanical flexibility and thermal expansion.
 
 <br></br>
 
@@ -499,11 +501,13 @@ the die attach layer is introduced between the silicon die and the substrate, wh
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 155543" src="https://github.com/user-attachments/assets/3e7d95f9-5d58-4616-850c-abd357ec4c2b" />
 
+The bond wire material is updated to gold, which is commonly used in semiconductor packaging due to its excellent conductivity and resistance to oxidation. Material selection here directly impacts reliability, especially in long-term operation where corrosion and electromigration must be minimized.
 
 <br></br>
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 160918" src="https://github.com/user-attachments/assets/e1998123-1e3b-4d38-83c0-44b4877c02c1" />
 
+The model transitions into a more complete package structure with the introduction of a mold compound (epoxy-based encapsulation). This outer layer protects the die and interconnects from environmental damage, mechanical stress, and contamination. It also influences thermal dissipation and overall package robustness.
 
 <br></br>
 
@@ -514,6 +518,7 @@ the die attach layer is introduced between the silicon die and the substrate, wh
 
 <img width="1920" height="1080" alt="Screenshot 2026-03-29 162001" src="https://github.com/user-attachments/assets/e6977099-9ccd-4a0d-a6e7-573bedb60cfd" />
 
+The final assembled package is visualized with all components integrated: substrate, die attach, silicon die, bond pads, bond wires, and encapsulation. This represents a complete semiconductor package model, ready for further analysis such as thermal, electrical, or mechanical simulations. At this point, the structure closely resembles a real-world packaged device.
 
 <br></br>
 
