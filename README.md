@@ -319,7 +319,201 @@ Automatic Test Equipment (ATE) plays a central role in semiconductor validation 
 <br></br>
 ##Day 5: Package Design and Modelling: Building Semiconductor Package from Scratch.
 <br></br>
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 124931" src="https://github.com/user-attachments/assets/d87ad542-3ada-498a-9320-90fb95bcf970" />
 
+The modelling process begins in a 3D simulation environment where the global coordinate system defines the reference for all geometry creation. Establishing a proper origin and orientation is critical because every component in the package die, substrate, and interconnects is positioned relative to this coordinate system. This ensures geometric accuracy and alignment throughout the design.
+
+<br></br>
+<img width="960" height="504" alt="Screenshot 2026-03-29 125917" src="https://github.com/user-attachments/assets/cba6165a-6d8e-4936-942d-ebe6c442b188" />
+
+The first geometric entity is created using a 2D rectangular sheet, which serves as the foundation for building 3D structures. The rectangle is defined parametrically using dimensions (XSize and YSize) and positioned at the origin. This approach ensures that the model remains scalable and easy to modify during later stages.
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-29 130143" src="https://github.com/user-attachments/assets/c41bc843-0957-405f-a1ca-dd0e1bd7b9bc" />
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 130229" src="https://github.com/user-attachments/assets/a2940186-6a4c-4bbd-bfc3-23e0d7f8d770" />
+
+The transition from 2D to 3D is achieved using the thicken operation, which extrudes the sheet along a specified axis. This step introduces physical depth, transforming the rectangle into a solid body. Thickness plays a crucial role in determining electrical, thermal, and mechanical behavior, making it an essential design parameter.
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 130424" src="https://github.com/user-attachments/assets/5f6c4f92-8599-4fb6-a586-85e63afacb96" />
+
+<br></br>
+
+<img width="461" height="228" alt="Screenshot 2026-03-29 130510" src="https://github.com/user-attachments/assets/dae3243a-726d-46c2-9d66-1154ad34ec5e" />
+
+
+
+<br></br>
+
+<img width="1166" height="855" alt="Screenshot 2026-03-29 130719" src="https://github.com/user-attachments/assets/cfcbeff0-d852-4a66-a633-c8f8e3436982" />
+
+Once the geometry is created, materials are assigned to define the physical properties of each component. Conductive materials such as copper are used for interconnects, while silicon represents the semiconductor die. Material selection directly influences electrical conductivity, thermal performance, and overall simulation accuracy.
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 130739" src="https://github.com/user-attachments/assets/010f6914-b047-424c-a1bd-1b1bdea003da" />
+
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 130832" src="https://github.com/user-attachments/assets/bb8c7c0b-42e4-4bdd-bcae-ea75692557bd" />
+
+A smaller geometry is created and positioned above the base to represent the semiconductor die. This layered structure reflects real-world packaging, where the silicon die is mounted on a substrate. The relative positioning and dimensions are critical for capturing interconnect behavior and thermal gradients.
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 131108" src="https://github.com/user-attachments/assets/15bb5269-bb99-4ae8-bed4-b9c6a4745acc" />
+
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 131258" src="https://github.com/user-attachments/assets/d7ef13ed-7cb7-42ea-905a-7f18e936f102" />
+
+
+<br></br>
+
+<img width="461" height="228" alt="Screenshot 2026-03-29 131620" src="https://github.com/user-attachments/assets/588b383a-a37f-4ed7-b108-14916f70daef" />
+
+A larger rectangular base is constructed beneath the die to represent the substrate, typically made of dielectric materials such as FR4 epoxy. The substrate provides mechanical support and electrical routing pathways. Its thickness and material properties significantly impact signal integrity and heat dissipation.
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 131638" src="https://github.com/user-attachments/assets/95358fe5-cc5d-49e6-804e-f0921e81c0ff" />
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 131805" src="https://github.com/user-attachments/assets/2984ed19-9999-4899-b7bc-53f1c612715f" />
+The complete package structure is formed by stacking multiple layers—substrate, conductive regions, and die—into a single integrated model. This layered configuration mimics actual semiconductor packaging, where different materials and geometries interact to determine overall device performance.
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 131847" src="https://github.com/user-attachments/assets/d789bbe6-7aef-43ab-bc4f-48c382d4174e" />
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 132423" src="https://github.com/user-attachments/assets/6b7f86b2-af1b-4ae9-879d-167cbf8e6049" />
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 132600" src="https://github.com/user-attachments/assets/7b59dd9d-5083-4ad4-a50f-c258657ac5ca" />
+
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 132637" src="https://github.com/user-attachments/assets/ce210633-6b3d-4d48-ae85-6c348a1441e8" />
+
+
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-29 134426" src="https://github.com/user-attachments/assets/50edb88c-5581-4ade-a205-78234b90f68a" />
+
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 134659" src="https://github.com/user-attachments/assets/b98f2aa0-cc36-4f1f-aa94-d3d6dbbd47dc" />
+
+
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-29 134742" src="https://github.com/user-attachments/assets/b39bf240-d10a-4cb9-856e-c20f56ee6209" />
+
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 135340" src="https://github.com/user-attachments/assets/ca5675c2-29ff-452b-afc9-e44f52213cbc" />
+
+
+
+<br></br>
+
+<img width="1102" height="533" alt="Screenshot 2026-03-29 135543" src="https://github.com/user-attachments/assets/8d2944cd-a889-46c3-aa8f-3e862439a458" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 135601" src="https://github.com/user-attachments/assets/b09ef93d-36cb-4b90-8299-83e1d8823dcd" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 135622" src="https://github.com/user-attachments/assets/25daff0b-2718-4f14-b37f-aef86863c8dc" />
+
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-29 135726" src="https://github.com/user-attachments/assets/8873234b-395b-4448-bfc4-bff96b4ea853" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 140629" src="https://github.com/user-attachments/assets/735fd6f4-707b-4ad2-bb71-d2a52a6587a6" />
+
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 140744" src="https://github.com/user-attachments/assets/66a91b46-cb3b-45e4-8d79-639949a61197" />
+
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 154509" src="https://github.com/user-attachments/assets/434377cb-91d7-49c7-b2e4-b5cf5811599b" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 154606" src="https://github.com/user-attachments/assets/8a423baa-a60e-4ac4-b5f6-c36d21812137" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 154620" src="https://github.com/user-attachments/assets/c4d3a24d-d3b6-4718-90a8-69f67ff86fb8" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 155239" src="https://github.com/user-attachments/assets/e0d22cf8-d585-4a9d-9085-dceddb4d53c0" />
+
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-29 155428" src="https://github.com/user-attachments/assets/cf2a4aa9-f893-4f95-9f67-68a3849cae6c" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 155543" src="https://github.com/user-attachments/assets/3e7d95f9-5d58-4616-850c-abd357ec4c2b" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 160918" src="https://github.com/user-attachments/assets/e1998123-1e3b-4d38-83c0-44b4877c02c1" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-29 161319" src="https://github.com/user-attachments/assets/b68d9bc5-554e-4713-98e6-b88c5afc8ad0" />
+
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-29 162001" src="https://github.com/user-attachments/assets/e6977099-9ccd-4a0d-a6e7-573bedb60cfd" />
 
 
 <br></br>
@@ -329,37 +523,3 @@ Automatic Test Equipment (ATE) plays a central role in semiconductor validation 
 <br></br>
 
 
-
-
-<br></br>
-
-
-
-<br></br>
-
-
-
-<br></br>
-
-
-
-
-<br></br>
-
-
-
-<br></br>
-
-
-
-
-<br></br>
-
-
-
-
-<br></br>
-
-
-
-<br></br>
