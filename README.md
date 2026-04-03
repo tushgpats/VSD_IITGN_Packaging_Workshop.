@@ -13,7 +13,7 @@ Ensuring package reliability involves rigorous testing and validation under vari
 <br></br>
 
 <details>
-<summary>#Part 1: Packaging evolution: From Basics to 3D Integration. </summary>
+<summary><strong>Part 1: Packaging evolution: From Basics to 3D Integration.</strong> </summary>
 <br></br>
 
 Semiconductor packaging is essential because the raw silicon die is extremely fragile and cannot function directly in a real-world environment. Packaging provides mechanical protection, enables electrical connections between the chip and external circuits, and ensures efficient heat dissipation during operation. Without proper packaging, issues like thermal failure, signal degradation, and physical damage would render the device unusable. In modern systems, packaging also plays a crucial role in improving performance, reducing power consumption, and enabling compact form factors.
@@ -66,7 +66,7 @@ Different package types offer trade-offs in terms of cost, size, performance, an
 
 <br></br>
 <details>
-<summary> # Part 2 : From Wafer to Package: Assembly and Manufacturing Essentials.</summary>
+<summary><strong>Part 2 : From Wafer to Package: Assembly and Manufacturing Essentials.</strong></summary>
 <br></br>
 In semiconductor manufacturing, once the wafer fabrication is complete, several crucial steps are required to convert it into a usable packaged device. The process begins with preparing the wafer through grinding and dicing, where the wafer is thinned and then cut into individual dies. These dies are then carefully handled and attached to a substrate or carrier, forming the foundation for further packaging steps. The entire process requires a well-established supply chain and specialized facilities to ensure precision, cleanliness, and high yield.
 <br></br>
@@ -113,7 +113,7 @@ Packaging is performed directly at the wafer level by redistributing connections
 </details>
 <br></br>
 <details>
-<summary># Day 3 : Lab: Thermal Simulation of Semiconductor Packages with ANSYS Icepak. </summary>
+<summary><strong>Day 3 : Lab: Thermal Simulation of Semiconductor Packages with ANSYS Icepak. </strong> </summary>
 <br></br>
 We now focus on hands-on thermal simulation of semiconductor packages using ANSYS Electronics Desktop, which providies practical exposure to industry-relevant analysis workflows. we begins with the setup and navigation of the tool. We then build a Flip-Chip BGA package model, which serves as a realistic example for understanding package-level thermal behavior. Material properties and thermal power sources are defined to accurately represent real-world operating conditions.
 
@@ -282,7 +282,7 @@ A closer view of the temperature contour clearly highlights the thermal gradient
 
 <br></br>
 <details>
-<summary>#Day 4: Ensuring Package Reliablity : Testing and Performance Validation. </summary>
+<summary><strong>Day 4: Ensuring Package Reliablity : Testing and Performance Validation.</strong> </summary>
 <br></br>
 
 We now focus on ensuring package reliability through testing and performance validation, bridging the gap between design and real-world operation. It begins with an introduction to package testing methodologies and electrical functionality checks, where various techniques are used to verify that the packaged device operates correctly under expected conditions. These checks ensure signal integrity, continuity, and overall functional correctness before deployment.
@@ -328,7 +328,7 @@ Automatic Test Equipment (ATE) plays a central role in semiconductor validation 
 <br></br>
 
 <details>
-<summary>#Day 5: Package Design and Modelling: Building Semiconductor Package from Scratch. </summary>
+<summary><strong>Day 5: Package Design and Modelling: Building Semiconductor Package from Scratch. </strong> </summary>
 <br></br>
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 124931" src="https://github.com/user-attachments/assets/d87ad542-3ada-498a-9320-90fb95bcf970" />
 
