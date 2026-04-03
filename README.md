@@ -1,7 +1,8 @@
 # VSD_IITGN_Packaging_Workshop.
 <br></br>
-10 day Workshop on Basics of Semiconductor Packaging.
+## 10 day Workshop on Basics of Semiconductor Packaging.
 <br></br>
+
 <img width="1193" height="684" alt="Screenshot 2026-04-01 215819" src="https://github.com/user-attachments/assets/27208137-56ad-4778-a178-73620cfc90b4" />
 
 Semiconductor packaging is a critical bridge between the silicon die and the real-world application, enabling electrical connectivity, mechanical protection, and thermal management. The evolution of packaging has moved from simple wire-bonded configurations to advanced 3D integration techniques such as chiplets, TSVs (Through-Silicon Vias), and heterogeneous integration. This progression reflects the industry’s need to overcome scaling limitations at the transistor level while continuing to improve performance, power efficiency, and form factor. Modern packaging is no longer just a backend step—it is a key design domain that directly influences system-level performance.
