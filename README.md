@@ -413,7 +413,7 @@ The complete package structure is formed by stacking multiple layers—substrate
 
 <img width="1920" height="1008" alt="Screenshot 2026-03-29 132637" src="https://github.com/user-attachments/assets/ce210633-6b3d-4d48-ae85-6c348a1441e8" />
 
-
+the die attach layer is introduced between the silicon die and the substrate, which plays a crucial role in both mechanical bonding and thermal conduction. The geometry is created similarly using rectangular primitives, but with careful positioning to ensure proper alignment with the die. This layer is typically very thin and requires precise dimensional control, as it directly affects heat transfer from the die to the substrate. Proper modeling of this layer ensures more realistic thermal and structural behavior in simulations.
 
 <br></br>
 
@@ -436,7 +436,6 @@ The complete package structure is formed by stacking multiple layers—substrate
 <br></br>
 
 <img width="1102" height="533" alt="Screenshot 2026-03-29 135340" src="https://github.com/user-attachments/assets/ca5675c2-29ff-452b-afc9-e44f52213cbc" />
-
 
 
 <br></br>
