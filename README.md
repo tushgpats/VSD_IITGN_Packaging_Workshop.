@@ -1,6 +1,7 @@
-# VSD_IITGN_Packaging_Workshop.
+## VSD_IITGN_Packaging_Workshop.
 <br></br>
 10 day Workshop on Basics of Semiconductor Packaging.
+<br></br>
 Semiconductor packaging is a critical bridge between the silicon die and the real-world application, enabling electrical connectivity, mechanical protection, and thermal management. The evolution of packaging has moved from simple wire-bonded configurations to advanced 3D integration techniques such as chiplets, TSVs (Through-Silicon Vias), and heterogeneous integration. This progression reflects the industry’s need to overcome scaling limitations at the transistor level while continuing to improve performance, power efficiency, and form factor. Modern packaging is no longer just a backend step—it is a key design domain that directly influences system-level performance.
 <br></br>
 The journey from wafer to package involves multiple tightly controlled manufacturing steps including dicing, die attach, wire bonding or flip-chip interconnect, encapsulation, and final testing. Each stage must ensure precision and reliability, as defects at the packaging level can compromise the entire system. Thermal considerations are especially important, which is why simulation tools like ANSYS are widely used to model heat dissipation and ensure that the package can handle operational stresses. Effective thermal design directly impacts device longevity and performance, particularly in high-power and high-density applications.
