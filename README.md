@@ -106,12 +106,195 @@ Solder bumps are first formed on the die pads, after which the die is flipped an
 
 Packaging is performed directly at the wafer level by redistributing connections through RDL layers and forming solder balls before singulation. Known good dies are reconstituted onto a carrier, followed by molding to create a new wafer-like structure. After RDL patterning and solder ball attachment, the wafer is diced into fully packaged devices, enabling compact form factors and improved manufacturing efficiency.
 <br></br>
+## Day 3 : Lab: Thermal Simulation of Semiconductor Packages with ANSYS Icepak. 
+<br></br>
+We now focus on hands-on thermal simulation of semiconductor packages using ANSYS Electronics Desktop, which providies practical exposure to industry-relevant analysis workflows. we begins with the setup and navigation of the tool. We then build a Flip-Chip BGA package model, which serves as a realistic example for understanding package-level thermal behavior. Material properties and thermal power sources are defined to accurately represent real-world operating conditions.
+
+
+The workflow continues with meshing and running thermal simulations to analyze heat distribution across the package. Proper meshing is emphasized as a critical step to ensure accurate and convergent results. Finally, the lab explores visualization of results, allowing users to interpret temperature gradients and identify potential thermal hotspots. This hands-on experience highlights the importance of thermal analysis in package design, helping engineers make informed decisions to improve reliability and performance.
+
+<br></br>
+The simulation begins in the ANSYS Icepak 3D Modeler environment. Basic geometric primitives such as boxes and cylinders are available to construct the package. This stage establishes the coordinate system and modeling workspace where the package structure will be built.
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 213006" src="https://github.com/user-attachments/assets/2bdbd949-570b-4467-87e5-ee83bd336a06" />
+
+<br></br>
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 213141" src="https://github.com/user-attachments/assets/d30873a5-a625-48bd-9471-755f0eed6a33" />
+We select a predefined Flip-Chip BGA template. This significantly simplifies modeling by providing parameterized package structures instead of building everything from scratch.
+
+<br></br>
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 213442" src="https://github.com/user-attachments/assets/2d9dcfc5-537b-4add-a20b-868e5e2a0752" />
+Key package parameters such as:
+
+Package size (15 mm × 15 mm)
+Thickness
+Model type (Detailed)
+Symmetry (Full)
+
+are defined. This step determines the overall physical footprint of the package.
+
+<br></br>
+<img width="960" height="540" alt="Screenshot 2026-03-28 213618" src="https://github.com/user-attachments/assets/16429f2d-eaf6-4448-86d7-b72716b3d7b5" />
+The die is configured with:
+
+Size (~8.56 mm × 8.56 mm)
+Power dissipation (1 W)
+Source type (2D thermal source)
+
+This represents the heat-generating component of the package and is critical for thermal analysis.
+
+<br></br>
+<img width="960" height="540" alt="Screenshot 2026-03-28 222029" src="https://github.com/user-attachments/assets/13297818-d5ab-40d2-801f-f4e3515e4fb5" />
+
+The substrate is defined with:
+
+Number of layers (2)
+Thickness
+Copper trace coverage
+Thermal vias
+
+This step models the internal routing and heat conduction paths within the package.
+
+<br></br>
+<img width="960" height="540" alt="Screenshot 2026-03-28 222316" src="https://github.com/user-attachments/assets/20820e26-e1f2-43fe-8160-49d344f1a168" />
+
+The BGA configuration includes:
+
+Array size (14 × 14)
+Ball pitch
+Ball diameter and height
+Material (Pb-Sn solder)
+These solder balls form the electrical and thermal interface between the package and PCB.
+
+<br></br>
+
+<img width="960" height="504" alt="Screenshot 2026-03-28 222614" src="https://github.com/user-attachments/assets/8b182dfc-67e0-4fe3-8227-94e736720b41" />
+
+the fully generated Flip-Chip BGA package after applying all configuration parameters. The model now includes the die, substrate layers, and solder ball array, forming a complete package structure ready for thermal analysis.
+
+<br></br>
+
+<img width="960" height="504" alt="Screenshot 2026-03-28 223608" src="https://github.com/user-attachments/assets/317ea574-c5ab-4452-83c1-a4f0b4f5f941" />
+
+model hierarchy is displayed in the project tree, showing individual components such as the die, substrate, and solder balls. This hierarchical structure helps in assigning materials, boundary conditions, and thermal properties to specific parts of the package.
+<br></br>
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 223953" src="https://github.com/user-attachments/assets/c26b5d63-aadf-48e8-8d1a-244d541d1fa9" />
+
+<br></br>
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 224121" src="https://github.com/user-attachments/assets/bc8857ff-c0b3-4378-9ce5-84ca09b4c546" />
+A thermal power source is assigned to the die to represent heat generation during operation.
+
+
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-28 224207" src="https://github.com/user-attachments/assets/7f5edd90-24eb-4f20-b94f-fde05cc71a29" />
+
+
+
+<br></br>
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 224616" src="https://github.com/user-attachments/assets/f39aa3d3-e7f6-4ddc-8694-f247cd3a382c" />
+The thermal source can also be assigned directly from the object tree by right-clicking the required geometry and navigating to Assign Thermal → Source.
+
+<br></br>
+
+<img width="396" height="355" alt="Screenshot 2026-03-28 224742" src="https://github.com/user-attachments/assets/1bb6fa88-772c-4787-8af0-aa7693aa8d7a" />
+
+a fixed temperature condition is assigned, using AmbientTemp as the reference boundary.
+
+<br></br>
+
+<img width="960" height="540" alt="Screenshot 2026-03-28 224816" src="https://github.com/user-attachments/assets/3c46f39f-adea-4877-9ec0-1d3b3e6be017" />
+
+
+<br></br>
+
+<img width="960" height="504" alt="Screenshot 2026-03-28 225132" src="https://github.com/user-attachments/assets/5a0c54e0-7968-4038-b225-0bbc94f76d62" />
+
+<br></br>
+
+<img width="215" height="302" alt="Screenshot 2026-03-28 225214" src="https://github.com/user-attachments/assets/71e49735-770b-4f5d-92d7-2c1ef0182dff" />
+<br></br>
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-28 225845" src="https://github.com/user-attachments/assets/97d9ead3-57c0-466c-99b5-e7e2b63ccb5e" />
+
+
+<br></br>
+
+<img width="762" height="1080" alt="Screenshot 2026-03-28 225935" src="https://github.com/user-attachments/assets/cbb9d590-699b-4060-87db-adbc87065184" />
+<img width="762" height="1080" alt="Screenshot 2026-03-28 225958" src="https://github.com/user-attachments/assets/9da32095-c748-467e-9ebb-4515317c473e" />
+This mesh quality plot shows the distribution of mesh elements based on face alignment. Most elements are concentrated near the high-quality end of the scale, indicating that the mesh conforms well to the model surfaces. A good face alignment distribution improves numerical stability and geometric fidelity in the solution.
+The skewness plot provides another measure of mesh quality by showing how distorted the elements are. A large number of elements are still clustered toward the acceptable quality range, indicating that the mesh is reasonably suitable for analysis. Reviewing skewness is important because highly distorted elements can reduce solution accuracy.
+<br></br>
+
+<img width="761" height="1025" alt="Screenshot 2026-03-28 230312" src="https://github.com/user-attachments/assets/5c077782-fc6e-43cb-9741-fa1ea380853b" />
+
+<br></br>
+<img width="783" height="372" alt="Screenshot 2026-03-28 230504" src="https://github.com/user-attachments/assets/53c7612a-9062-42f4-91b1-266c5528371f" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-28 231509" src="https://github.com/user-attachments/assets/ac5b3351-f358-4a59-a184-f6a4b50ae933" />
+
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-28 231551" src="https://github.com/user-attachments/assets/68dae2c8-d388-48af-b76c-18edfdc395a0" />
+
+
+<br></br>
+
+<img width="834" height="672" alt="Screenshot 2026-03-28 232421" src="https://github.com/user-attachments/assets/fd06f586-8179-4fcd-be33-9086050bc374" />
+
+
+<br></br>
+
+<img width="1262" height="1047" alt="Screenshot 2026-03-28 232437" src="https://github.com/user-attachments/assets/83acd5a7-82b6-4515-aa95-fd6555e10954" />
+
+
+<br></br>
+
+<img width="461" height="307" alt="Screenshot 2026-03-28 232524" src="https://github.com/user-attachments/assets/4c5ffca8-c450-4d7a-9a71-e957528f015f" />
+Gaussian smoothing is applied to improve the visual appearance of the field plot by reducing abrupt contour transitions.
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-28 232706" src="https://github.com/user-attachments/assets/cc52da54-1b8a-4012-b551-e8cd344fc77e" />
+The thermal contour plot shows the final temperature distribution across the package. The die region appears as the hottest zone, reaching a maximum temperature of about 137.6 °C, while the surrounding region remains close to the ambient condition of 20 °C.
+
+<br></br>
+
+<img width="1920" height="1008" alt="Screenshot 2026-03-28 232847" src="https://github.com/user-attachments/assets/b9662625-ce75-4b39-9a70-7e9341515417" />
+A closer view of the temperature contour clearly highlights the thermal gradient between the die and the surrounding substrate. The die remains at the highest temperature, while the adjacent substrate region shows intermediate temperatures due to heat spreading. This view is particularly useful for identifying hotspot concentration and localized package heating.
+
+
+<br></br>
+
+
+
+<br></br>
 
 
 
 
+<br></br>
 
 
 
 
+<br></br>
 
+
+
+
+<br></br>
+
+
+
+
+<br></br>
